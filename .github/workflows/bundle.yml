@@ -95,7 +95,7 @@ jobs:
           retention-days: 1
 
   bundle_msi:
-    name: Bundle MSI (${{ matrix.target }})
+    name: Bundle MSI  (${{ matrix.target }})
     strategy:
       fail-fast: false
       matrix:
